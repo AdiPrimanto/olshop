@@ -1,0 +1,339 @@
+/* CHAT */
+.peers {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.peer {
+    display: block;
+    height: auto;
+    flex: 0 0 auto;
+}
+.peer-greed {
+    flex: 1 1 auto;
+    /* overflow: hidden; */
+}
+.peers-greed > .peer,
+.peers-greed > .peers {
+    flex: 1 1 auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+.peer > img {
+    max-width: none;
+}
+.w-3r, .sz-3r {
+    width: 3rem;
+}
+.peer-greed > img {
+    max-width: 100%;
+}
+.bdrs-50p {
+    border-radius: 50% !important;
+}
+.fxw-nw {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.ai-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pos-r {
+    position: relative !important;
+}
+.bdR {
+    border-right: 1px solid rgba(0, 0, 0, 0.0625) !important;
+}
+.bdB {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625) !important;
+}
+.p-20 {
+    padding: 20px !important;
+}
+.bdw-0 {
+    border-width: 0px !important;
+}
+.cur-p {
+    cursor: pointer;
+}
+.p-15 {
+    padding: 15px !important;
+}
+.bdrs-0 {
+    border-radius: 0px !important;
+}
+#chat-sidebar {
+    width: 250px;
+    height: calc(108vh - 65px - 60px);
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+}
+#chat-rightbar {
+    width: 300px;
+    height: calc(108vh - 65px - 60px);
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+    
+}
+.rightbar-header {
+    min-height: 80px;
+    flex: 0 0 auto;
+    padding: 16px 24px;
+    align-items: center!important;
+    width: 100%;
+    margin: 0 !important;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+}
+.fa-ellipsis-v {
+    cursor: pointer;
+}
+.fa-ellipsis-v:hover {
+    color: #2196f3
+}
+.icon-edit {
+    opacity: 0;
+}
+.icon-edit:hover {
+    opacity: 1;
+    /* display: block; */
+}
+.pL-20 {
+    padding-left: 20px !important;
+}
+.lh-1 {
+    line-height: 1 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.mB-0 {
+    margin-bottom: 0px !important;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: Roboto, -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+h6, .h6 {
+    font-size: 0.875rem;
+}
+.c-green-500, .cH-green-500:hover {
+    color: #4caf50 !important;
+}
+.lh-1 {
+    line-height: 1 !important;
+}
+small, .small {
+    font-size: 0.875em;
+}
+#chat-box {
+    height: calc(108vh - 65px - 60px);
+    overflow: auto;
+}
+.layers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.h-100 {
+    height: 100% !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.ps {
+    overflow: hidden !important;
+    -ms-overflow-style: none;
+    touch-action: auto;
+    -ms-touch-action: auto;
+}
+.bgc-white, .bgcH-white:hover {
+    background-color: #ffffff !important;
+}
+.bgc-grey-200, .bgcH-grey-200:hover {
+    background-color: #f2f3f5 !important;
+}
+.fxg-1 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.gapY-15 {
+    margin-top: -7.5px !important;
+    margin-bottom: -7.5px !important;
+}
+[class*='gap'] {
+    width: auto !important;
+    overflow: hidden !important;
+}
+.gapY-15 > * {
+    padding-top: 7.5px !important;
+    padding-bottom: 7.5px !important;
+}
+.mR-10 {
+    margin-right: 10px !important;
+}
+.mR-20 {
+    margin-right: 20px !important;
+}
+.w-2r, .sz-2r {
+    width: 2rem;
+}
+.ai-fs {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.gapY-5 > * {
+    padding-top: 2.5px !important;
+    padding-bottom: 2.5px !important;
+}
+.bdrs-2 {
+    border-radius: 2px !important;
+}
+.lh-3\/2 {
+    line-height: 1.5 !important;
+}
+.pX-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.pY-3 {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.ai-fe {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.mL-20 {
+    margin-left: 20px !important;
+}
+.ord-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+.ord-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+}
+.gapY-10 {
+    margin-top: -5px !important;
+    margin-bottom: -5px !important;
+}
+.gapY-10 > * {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.bdT {
+    border-top: 1px solid rgba(0, 0, 0, 0.0625) !important;
+}
+.bdrs-10em {
+    border-radius: 10em !important;
+}
+.m-0 {
+    margin: 0px !important;
+}
+.h-2r, .sz-2r {
+    height: 2rem;
+}
+.r-1 {
+    right: 1px;
+}
+.t-1 {
+    top: 1px;
+}
+.p-0 {
+    padding: 0px !important;
+}
+.pos-a {
+    position: absolute !important;
+}
+.btn-color {
+    color: #fff;
+}
+.lebar-btn {
+    width: 45px;
+    height: 45px;
+}
+.pX-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.pY-20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.jc-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.mR-30 {
+    margin-right: 30px !important;
+}
+.td-n {
+    text-decoration: none !important;
+}
+.bLr {
+    border-left: 1px solid #F5F5F5;
+}
+
+@media (max-width: 767px) {
+    #chat-sidebar {
+        width: 100%;
+    }
+    #chat-rightbar {
+        width: 100%;
+    }
+    .icon-edit {
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 992px) {
+    .d-n\@md\+ {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #chat-box {
+        height: calc(105vh - 65px - 60px);
+    }
+    #chat-sidebar {
+        height: calc(105vh - 65px - 60px);
+    }
+    #chat-rightbar {
+        height: calc(105vh - 65px - 60px);
+    }
+}
